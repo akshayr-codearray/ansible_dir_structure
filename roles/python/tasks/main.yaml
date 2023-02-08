@@ -1,0 +1,10 @@
+---
+# - name: python task
+- vars: 
+    - python_ver: python3.10
+
+  name: python installation
+  apt: 
+    update_cache: yes
+    name: "{{ python_ver }}"
+    state: present

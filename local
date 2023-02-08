@@ -1,0 +1,4 @@
+[nginx_server]
+
+192.168.29.88 ansible_ssh_user=ubuntu0 ansible_ssh_pass=password
+
